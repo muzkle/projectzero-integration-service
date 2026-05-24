@@ -13,6 +13,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: Production
     steps:
       - uses: actions/checkout@v4
 
@@ -24,7 +25,8 @@ jobs:
 
       - name: Install and build
         run: |
-          npm ci
+          npm install
+          npm ls @muzkle/contracts
           npm run build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
