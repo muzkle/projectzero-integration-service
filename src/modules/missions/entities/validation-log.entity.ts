@@ -5,7 +5,7 @@ import {
   CreateDateColumn,
   Index,
 } from 'typeorm';
-import { MissionType } from '@projectzero/contracts';
+import { MissionType } from '@muzkle/contracts';
 
 @Entity('validation_logs')
 export class ValidationLog {

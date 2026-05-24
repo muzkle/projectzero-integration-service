@@ -1,6 +1,6 @@
 import { Processor, WorkerHost } from '@nestjs/bullmq';
 import { Job } from 'bullmq';
-import { JOB_NAMES, QUEUE_NAMES } from '@projectzero/contracts';
+import { JOB_NAMES, QUEUE_NAMES } from '@muzkle/contracts';
 import { MissionsService } from '../../modules/missions/missions.service';
 import { ValidateMissionJobData } from './validate-mission.producer';
 

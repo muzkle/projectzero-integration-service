@@ -5,7 +5,7 @@ import {
   JOB_NAMES,
   MissionValidatedEvent,
   QUEUE_NAMES,
-} from '@projectzero/contracts';
+} from '@muzkle/contracts';
 
 @Injectable()
 export class MissionEventsProducer {

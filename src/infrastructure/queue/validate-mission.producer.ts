@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectQueue } from '@nestjs/bullmq';
 import { Queue } from 'bullmq';
-import { JOB_NAMES, QUEUE_NAMES } from '@projectzero/contracts';
+import { JOB_NAMES, QUEUE_NAMES } from '@muzkle/contracts';
 
 export interface ValidateMissionJobData {
   userId: string;

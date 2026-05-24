@@ -6,7 +6,7 @@ import {
   HttpStatus,
 } from '@nestjs/common';
 import { Response } from 'express';
-import { ErrorCode } from '@projectzero/contracts';
+import { ErrorCode } from '@muzkle/contracts';
 
 @Catch()
 export class HttpExceptionFilter implements ExceptionFilter {

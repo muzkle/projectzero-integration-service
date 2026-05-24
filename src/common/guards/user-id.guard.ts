@@ -5,7 +5,7 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { Request } from 'express';
-import { ErrorCode } from '@projectzero/contracts';
+import { ErrorCode } from '@muzkle/contracts';
 
 @Injectable()
 export class UserIdGuard implements CanActivate {

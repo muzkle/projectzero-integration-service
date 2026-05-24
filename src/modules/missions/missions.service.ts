@@ -8,7 +8,7 @@ import {
   MissionDto,
   MissionType,
   MissionValidatedEvent,
-} from '@projectzero/contracts';
+} from '@muzkle/contracts';
 import { CatalogClient } from '../../infrastructure/catalog/catalog.client';
 import { ConnectionsService } from '../connections/connections.service';
 import { SpotifyOAuthService } from '../connections/spotify-oauth.service';
